@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\bin\Debug\net8.0\AhorcadosJuegoTarea.exe
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\bin\Debug\net8.0\AhorcadosJuegoTarea.deps.json
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\bin\Debug\net8.0\AhorcadosJuegoTarea.runtimeconfig.json
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\bin\Debug\net8.0\AhorcadosJuegoTarea.dll
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\bin\Debug\net8.0\AhorcadosJuegoTarea.pdb
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.AssemblyInfo.cs
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.dll
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\refint\AhorcadosJuegoTarea.dll
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.pdb
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.genruntimeconfig.cache
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\ref\AhorcadosJuegoTarea.dll
