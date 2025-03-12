@@ -8,9 +8,9 @@ namespace AhorcadosJuegoTarea
 {
     internal class Palabras
     {
-        private string[] palabras =
+        private List<string> palabras = new List<string>()
             {
-                "computador", "navegador", "dinosaurio", "montañas", "astronauta",
+                "computador", "navegador", "dinosaurio", "astronauta",
                 "bicicleta", "biblioteca", "paraguas", "herramienta", "electricidad",
                 "ventilador", "telefonia", "calendario", "arquitecto", "cinematografia",
                 "fotovoltaico", "telefonista", "desconocido", "programacion",
@@ -18,11 +18,14 @@ namespace AhorcadosJuegoTarea
                 "entretenimiento", "alimentacion", "fortalecimiento", "pensamiento",
                 "administradora"
             };
-
+        public void addPalabra(string s)
+        {
+            palabras.Add(s);
+        }
         public char[] elegirPalabraRandom()
         {
             Random rand=new Random();
-            return (palabras[rand.Next(palabras.Length)]).ToCharArray();
+            return (palabras[rand.Next(palabras.Count)]).ToCharArray();
         }
         public char[] hashearPalabra(char[] palabraElegida)
         {

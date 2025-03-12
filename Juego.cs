@@ -35,8 +35,19 @@ namespace AhorcadosJuegoTarea
                 palabraElegidaCodificada = palabras.hashearPalabra(palabraElegida);
                 Boolean ganaste = false;
                 Console.WriteLine("Ingresa la cantidad de vidas que tendras");
-                jugador.getVida().setVidas(int.Parse(Console.ReadLine().ToLower()));
-
+                while (true)
+                {
+                    string numeroVidas = Console.ReadLine();
+                    if (int.TryParse(numeroVidas, out int numeroVidasInteger)){
+                        jugador.getVida().setVidas(numeroVidasInteger);
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error, ingresa un dato valido");
+                    } 
+                }
+                
                 while (jugador.getVida().getNumeroVidas() > 0)
                 {
                     if (palabraCompleta())
@@ -46,10 +57,23 @@ namespace AhorcadosJuegoTarea
                     }
                     Console.WriteLine(palabraElegidaCodificada);
                     Console.WriteLine("Que letra escojes?");
-                    char letra = char.ToLower(Console.ReadLine()[0]);
-                    if (verificarLetraEnPalabra(letra))
+                    char letraChar;
+                    while (true)
                     {
-                        agregarLetrasPalabraCodificada(letra);
+                        string letra = Console.ReadLine().ToLower();
+                        if(char.TryParse(letra, out letraChar) && !int.TryParse(letra,out int aux) &&letraChar>='a' &&letraChar<='z')
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ingrese valor correcto");
+                        }
+                    }
+                    
+                    if (verificarLetraEnPalabra(letraChar))
+                    {
+                        agregarLetrasPalabraCodificada(letraChar);
                         Console.WriteLine("Acertaste!");
                     }
                     else
@@ -64,12 +88,25 @@ namespace AhorcadosJuegoTarea
                 }
                 else
                 {
-                    Console.WriteLine("Perdiste todas las vidas, haz sido ahorcado, deseas empezar otra ronda? yes/no");
+                    Console.WriteLine("Haz sido ahorcado, no lograste adivinar la palabra '"+string.Join("",palabraElegida)+"' deseas empezar otra ronda? yes/no");
                 }
-                if (Console.ReadLine().ToLower() == "no")
+                while (true)
                 {
-                    break;
+                    string reiniciar = Console.ReadLine().ToLower();
+                    if (reiniciar== "no")
+                    {
+                        return;
+                    }
+                    else if (reiniciar == "yes")
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Introduce dato valido");
+                    }
                 }
+                
             }
         }
         public void agregarLetrasPalabraCodificada(char letra)

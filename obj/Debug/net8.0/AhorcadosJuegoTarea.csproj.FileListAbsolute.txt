@@ -12,3 +12,4 @@ C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea
 C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.pdb
 C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.genruntimeconfig.cache
 C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\ref\AhorcadosJuegoTarea.dll
+C:\Users\user\Desktop\NotasU\Semestre3\Progra_2\C#\Practicos\AhorcadosJuegoTarea\obj\Debug\net8.0\AhorcadosJuegoTarea.sourcelink.json
